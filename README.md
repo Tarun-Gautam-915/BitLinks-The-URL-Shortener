@@ -1,36 +1,106 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🔗 BitLinks - The Best URL Shortener
 
-## Getting Started
+BitLinks is a clean, privacy-respecting URL shortener built with **Next.js** and **Tailwind CSS**. It’s simple, fast, and doesn’t track you. Unlike many other platforms, BitLinks respects your time and data by offering an ad-free, login-free experience.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Features
+
+- ✂️ Simple and fast URL shortening
+- 👀 No tracking, no login required
+- 🌐 Clean, responsive UI
+- ⚡ Built with Next.js 14 and Tailwind CSS
+- 🧾 Fully open-source and easy to extend
+
+---
+
+## 📸 Screenshots
+
+<img width="1917" height="892" alt="image" src="https://github.com/user-attachments/assets/cc532847-3adf-499c-926c-f637db36d305" />
+<img width="1919" height="714" alt="image" src="https://github.com/user-attachments/assets/7f35bf64-4ab8-4162-ba2d-a08dd542b11f" />
+<img width="1032" height="561" alt="image" src="https://github.com/user-attachments/assets/9cf81107-7a2c-4c50-84a4-89797d411dec" />
+
+
+## 📂 Project Structure
+
+```
+bitlinks/
+├── app/
+│   ├── page.js         # Home page
+│   ├── about/page.js   # About page
+│   ├── contact/page.js # Contact page
+│   ├── shorten/page.js # URL shortener input page
+│   └── layout.js       # Shared layout (Navbar, Footer)
+├── components/
+│   ├── Navbar.js
+│   ├── Footer.js
+├── public/
+│   ├── vector.jpg      # Hero section image
+│   └── favicon.ico
+├── styles/
+│   └── globals.css
+├── fonts/
+│   └── Poppins-ExtraBold.ttf
+├── README.md
+└── package.json
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework**: [Next.js 14](https://nextjs.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Font**: Local Poppins font
+- **Image Optimization**: Next.js Image Component
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📦 Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+# 1. Clone the repository
+git clone https://github.com/Tarun-Gautam-915/BitLinks-The-URL-Shortener
+cd bitlinks
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# 2. Install dependencies
+npm install
 
-## Deploy on Vercel
+# 3. Run the development server
+npm run dev
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# App will be running at http://localhost:3000
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## ✨ Pages Included
+
+- `/` → Home Page
+- `/about` → About the project and team
+- `/contact` → Contact form or details
+- `/shorten` → Page to input and get shortened links
+
+---
+
+
+## 🧑‍💻 Contributing
+
+Pull requests are welcome! If you’d like to help improve BitLinks, fork the repo and submit a PR.
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🌐 Live Demo
+
+Coming soon...
+
+---
+
+> Made with 💜 by [Tarun]
+```
