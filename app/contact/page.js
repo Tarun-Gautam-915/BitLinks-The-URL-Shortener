@@ -7,7 +7,7 @@ const Contact = () => {
       <main className="flex-1 flex items-center justify-center bg-purple-50 p-6">
         <div className="max-w-2xl bg-purple-100 rounded-xl shadow-md p-8 space-y-4">
           <h1 className="text-3xl font-bold text-purple-700">Contact Me</h1>
-          <p>If you'd like to connect, collaborate, or provide feedback, feel free to reach out through any of the platforms below:</p>
+          <p>{"If you'd like to connect, collaborate, or provide feedback, feel free to reach out through any of the platforms below:"}</p>
 
           <ul className="space-y-2">
             <li>
