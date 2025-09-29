@@ -3,6 +3,11 @@
 BitLinks is a clean, privacy-respecting URL shortener built with **Next.js** and **Tailwind CSS**. It’s simple, fast, and doesn’t track you. Unlike many other platforms, BitLinks respects your time and data by offering an ad-free, login-free experience.
 
 ---
+## 🌐 Live Demo
+
+https://bitlinks-opal.vercel.app/
+
+---
 
 ## 🚀 Features
 
@@ -96,11 +101,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 🌐 Live Demo
 
-Coming soon...
-
----
-
-> Made with 💜 by [Tarun]
+> Made with 💜 by Tarun
 ```
