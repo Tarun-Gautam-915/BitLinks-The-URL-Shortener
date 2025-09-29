@@ -19,7 +19,7 @@ export default function Home() {
           <p className="px-29 text-center">We are the most straight forward URL shortner in the world. Most of the URL shorteners track you or asks you to give your details for login. We understand your needs and hence created this URL shortener. </p>
           <div className="flex gap-3 justify-center text-white">
             <Link href="/shorten"><button className='bg-purple-500 font-bold px-3 py-1 rounded-lg shadow-2xl active:scale-95 cursor-pointer'>Try Now</button></Link>
-            <Link href="/github"><button className='bg-purple-500 font-bold px-3 py-1 rounded-lg shadow-2xl active:scale-95 cursor-pointer'>GitHub</button></Link>
+            <Link href="https://github.com/Tarun-Gautam-915/BitLinks-The-URL-Shortener"><button className='bg-purple-500 font-bold px-3 py-1 rounded-lg shadow-2xl active:scale-95 cursor-pointer'>GitHub</button></Link>
           </div>
         </div>
         <div className="flex justify-start relative ">
